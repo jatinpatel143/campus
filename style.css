@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: 800vh;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav img{
+    width: 150px;
+}
+.div-res{
+    display: none;
+}
+.img-part{
+    width: 100%;
+    height: 600px;
+}
+.img-part img{
+    width: 100%;
+}
+.card-part{
+    width: 100%;
+    height: 200px;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-head{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-head h2 i{
+    color: brown;
+    font-size: 15px;
+}
+.card-head a{
+    padding-top: 20px;
+    color: brown;
+    font-weight: 200;
+}
+.card-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.card-one{
+    width: 300px;
+    height: 500px;
+}
+#heart{
+    margin-left: 280px;
+    font-size: 20px;
+}
+.img-bar{
+    width: 300px;
+    height: 320px;
+}
+.card-one img{
+    width: 100%;
+}
+.card-one button{
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+.list{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgb(17, 17, 17);
+    padding: 10px;
+    list-style: none;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: rgb(71, 71, 71);
+}
+.price h4{
+    color: gray;
+    text-decoration: line-through;
+}
+#red{
+    color: red;
+}
+.grid-part{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 727px 727px;
+    grid-template-rows: 700px 700px;
+}
+.grid-one{
+    width: 727px;
+    height: 700px;
+}
+.grid-one img{
+    width: 100%;
+}
+.grid-two{
+    width: 727px;
+    height: 700px;
+}
+.grid-two img{
+    width: 100%;
+}
+.grid-three{
+    width: 727px;
+    height: 700px;
+}
+.grid-three img{
+    width: 100%;
+}
+.grid-for{
+    width: 727px;
+    height: 700px;
+}
+.grid-for img{
+    width: 100%;
+}
+.text-part{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-part p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 10px;
+    color: gray;
+}
+.grid-part2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 710px 710px ;
+    grid-template-rows: 600px  200px;
+    row-gap: 20px;
+    column-gap: 0;
+}
+.grid-5{
+    width: 710px;
+    height: 700px;
+    padding: 30px;
+}
+.grid-5 img{
+    width: 100%;
+}
+.grid-6{
+    width: 710px;
+    height: 700px;
+    padding: 30px;
+}
+.grid-6 img{
+    width: 100%;
+}
+.grid-7{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.grid-8{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 10px;
+}
+.air{
+    font-size: 30px;
+}
+.for{
+    color: gray;
+}
+.missed-sale{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    background-color: #f7f1f0;
+    grid-template-columns: 727px 600px ;
+    grid-template-rows: 500px;
+    column-gap: 100px;
+}
+.img-section{
+    margin-top: 10%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.text-section{
+    margin-top: 10%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#missed{
+    font-size: 30px;
+    font-weight: lighter;
+}
+#missed2{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.text-section button{
+    width: 25%;
+    height: 40px;
+    border: none;
+    background-color: rgb(50, 67, 87);
+    color: white;
+}
+#pic{
+    position: absolute;
+    top: 547%;
+    left: 3%;
+}
+.video-section{
+    width: 100%;
+    height: auto;
+    background-color: #f7f1f0;
+}
+.video-section video{
+    width: 100%;
+}
+.delivary{
+    width: 100%;
+    height: 100px;
+    background-color: #f7f1f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.delivary i{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.list-first{
+     width: 20%;
+     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.list-first li{
+    list-style: none;
+    padding-top: 20px;
+}
+.list-first li p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.list-first li  a{
+    text-decoration: none;
+    color: gray;
+}
+.list-three li a{
+    text-decoration: none;
+    color: gray;
+}
+.list-three li{
+    list-style: none;
+    padding-top: 20px;
+}
+form{
+    width: 20%;
+    padding-top: 10px;
+    display: flex;
+    align-items: start;
+justify-content: center;
+flex-direction: column;
+}
+.list-two{
+    width: 30%;
+}
+.list-two ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.list-two ul li{
+    color: gray;
+}
+.list-two ul li p{
+    color: black;
+}
+form p{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+form input{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+}
+form button{
+    width: 40%;
+    margin-top: 10px;
+    height: 50px;
+    border: none;
+    background-color: rgb(50, 67, 87);
+    color: white;
+}
+form button:hover{
+    background-color: brown;
+}
+.footer-icon I{
+    font-size: 40PX;
+    padding-top: 20PX;
+    color: gray;
+}
+.footer-part{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f4dfdb;
+}
+.footer-tow{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 10px;
+}
+.footer-one {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer-three{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.footer-one a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-2 a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 10px;
+}
+.footer-three a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer-3 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        display: none;
+    }
+    .div-res{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: white;
+        padding: 20px;
+        position: sticky;
+    top: 0;
+    }
+    .res-nav{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style: none;
+    }
+    .res-nav li a{
+        color: black;
+        font-size: 20px;
+    }
+    .div-res img{
+        width: 150px;
+    }
+    .res-nav2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style: none;
+        color: black;
+    }
+    .res-nav2 li a{
+        color: black;
+        font-size: 20px;
+    }
+    .img-part{
+        width: 100%;
+        height: 600px;
+    }
+    .img-part img{
+        width: 100%;
+        height: 500px;
+    }
+    .card-one{
+        width: 300px;
+        height: auto;
+    }
+    .card-bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    #heart{
+        margin-left: 280px;
+        font-size: 20px;
+    }
+    .img-bar{
+        width: 300px;
+        height: 320px;
+    }
+    .card-one img{
+        width: 100%;
+    }
+    .card-one button{
+        width: 300px;
+        height: 40px;
+        border: none;
+    }
+    .list{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        color: rgb(17, 17, 17);
+        padding: 10px;
+        list-style: none;
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        color: rgb(71, 71, 71);
+    }
+    .price h4{
+        color: gray;
+        text-decoration: line-through;
+    }
+    #red{
+        color: red;
+    }
+    .grid-part{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 700px;
+        background-color: white;
+    }
+    .grid-two , .grid-three, .grid-for{
+        display: none;
+    }
+    .grid-part2{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns:710px ;
+        grid-template-rows: 710px ;
+    }
+    .missed-sale{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #pic{
+        position: absolute;
+        top: 770%;
+        left: 3%;
+    }
+    .img-section{
+        width: 100%;
+        margin-top: 10%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+    }
+    .delivary{
+        padding: 20px;
+        width: 100%;
+        height: 400px;
+        background-color: #f7f1f0;
+       flex-direction: column;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: #f4dfdb;
+       flex-direction: column;
+       padding: 20px;
+    }
+    form input{
+        width: 100%;
+        height: 50px;
+        padding: 20px;
+        border: none;
+    }
+    form{
+        width: 100%;
+        padding-top: 10px;
+    }
+    form button{
+        width: 20%;
+        margin-top: 10px;
+    }
+    .footer-tow{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .footer-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: #f4dfdb;
+    }
+    .footer-3{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .footer-3 a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
